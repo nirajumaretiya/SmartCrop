@@ -2,7 +2,7 @@
 
 ![SmartCrop Demo](test3.jpg)
 
-SmartCrop is an intelligent image resizing tool that uses the seam carving algorithm to resize images while preserving the most important content. Unlike traditional resizing methods that simply scale the image, SmartCrop removes the least important pixels (seams) to achieve the desired dimensions.
+SmartCrop is an intelligent image resizing tool that uses the seam carving algorithm with dynamic programming to resize images while preserving the most important content. The algorithm efficiently finds optimal seams to remove by using dynamic programming to calculate cumulative energy maps, ensuring minimal distortion of important image features. Unlike traditional resizing methods that simply scale the image, SmartCrop removes the least important pixels (seams) to achieve the desired dimensions.
 
 ## Features
 
