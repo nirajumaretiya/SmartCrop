@@ -1,0 +1,1 @@
+g++ d.cpp -o d `pkg-config --cflags --libs opencv4`
